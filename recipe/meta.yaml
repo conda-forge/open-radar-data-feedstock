@@ -1,5 +1,5 @@
 {% set name = "open-radar-data" %}
-{% set version = "0.0.5" %}
+{% set version = "0.0.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/open-radar-data-{{ version }}.tar.gz
-  sha256: ee9ed661d564f8ad18e915d0f216923f1048992b43e3f9006e106a2c1ab72f1a
+  sha256: 03c3c721914d4cb13c32223c68c3d1c606f167d50df4c32e2faaf588c1db45cd
 
 build:
   noarch: python
